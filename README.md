@@ -5,7 +5,7 @@ A collection of icons in the style of AutoHotkey's icon.
 
 ## Preview
 
-![Icon Previews](./Preview_Images/Icon-Preview.png "Icon Previews")
+![Icon Preview](./Previews/Icon-Preview.png)
 
 ----
 
