@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     x="0px" y="0px" width="128px" height="128px" viewBox="0 0 128 128">
+    <defs>
+        <rect id="icon-bg" width="100%" height="100%" rx="22%"/>
+        <clipPath id="icon-bg-clip">
+            <use xlink:href="#icon-bg"/>
+        </clipPath>
+        <linearGradient id="background-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0" style="stop-color:#FFFFFF"/>
+            <stop offset="1" style="stop-color:#000000"/>
+        </linearGradient>
+        <filter id="drop-shadow" width="100%" height="100%" x="0" y="0" primitiveUnits="userSpaceOnUse" filterUnits="userSpaceOnUse">
+            <feOffset in="SourceAlpha" dx="5" dy="5" result="Offset"/>
+            <feGaussianBlur in="Offset" stdDeviation="1" result="Blur"/>
+            <feFlood flood-color="#000000" flood-opacity="0.5" result="Color"/>
+            <feComposite in="Color" in2="Blur" operator="in" result="Composite"/>
+            <feMerge>
+                <feMergeNode in="Composite"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="icon-bgs">
+        <use xlink:href="#icon-bg" id="background" fill="#00BCD4"/>
+        <use xlink:href="#icon-bg" id="background-shading" fill="url(#background-gradient)"
+             fill-opacity="0.66" style="mix-blend-mode:luminosity;"/>
+        <use xlink:href="#icon-bg" id="background-border" fill="none" clip-path="url(#icon-bg-clip)"
+             stroke="#000000" stroke-width="8%" stroke-opacity="0.5"
+             style="mix-blend-mode:luminosity;"/>
+    </g>
+    <text id="character" x="50%" y="82%" dx="0" dy="0"
+          text-anchor="middle" dominant-baseline="alphabetical" filter="url(#drop-shadow)"
+          fill="#FFFFFF" font-family="Comic Neue" font-weight="700" font-size="120"
+          stroke="#FFFFFF" stroke-width="3"><tspan>A</tspan></text>
+</svg>
