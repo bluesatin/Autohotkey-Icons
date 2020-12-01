@@ -3,7 +3,7 @@ A collection of icons in the style of AutoHotkey's default icon, in a variety of
 
 [Available to download from the releases tab.](https://github.com/bluesatin/Autohotkey-Icons/releases)
 
-## Previews
+## Preview
 | v2 – [Release Link](https://github.com/bluesatin/Autohotkey-Icons/releases/tag/v2.0)  |
 |----|
 | ![Icon Preview](./Previews/Icon-Preview-v2.png)  |
